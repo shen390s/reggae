@@ -1,6 +1,6 @@
 # Commented are default values
 
-# CBSD_WORKDIR="/usr/cbsd"
+# CBSD_WORKDIR=`sysrc -n cbsd_workdir`
 # MASTER_IP="172.16.0.253"
 # DOMAIN=`hostname`
 # USE_ZFS="yes"
